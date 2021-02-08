@@ -11,7 +11,7 @@ using MySql.Data.MySqlClient;
 
 namespace Konyvtar
 {
-    public partial class beszerzes : Form
+    public partial class beszerzes : Form 
     {
         public beszerzes()
         {
