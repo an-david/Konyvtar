@@ -43,7 +43,7 @@ namespace Konyvtar
         Program.sql.CommandText = "SELECT * FROM vasarlas;";
         using (MySqlDataReader dr = Program.sql.ExecuteReader())
         {
-            while (dr.Read())
+            while (dr.Read()) 
             {
                 int uj_sor_index = dataGridView1.Rows.Add();
 
